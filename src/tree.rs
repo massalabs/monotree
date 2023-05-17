@@ -5,7 +5,7 @@ use crate::*;
 /// A structure for `monotree`.
 #[derive(Debug)]
 pub struct Monotree<D = DefaultDatabase, H = DefaultHasher> {
-    db: D,
+    pub db: D,
     hasher: H,
 }
 
